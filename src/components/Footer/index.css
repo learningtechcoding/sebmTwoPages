@@ -2,8 +2,13 @@
     width: 50px;
 }
 
-.footer {
-    background-color: #1f1c26;
+.logoheadertext {
+    font-weight: 700;
+    color: #ea2e32;
+}
+
+.footer { 
+    background-color: #1A1924;
     padding: 2rem;
     min-height: 105px;
     font-weight: bold;
@@ -12,7 +17,7 @@
 @media(max-width:554px)
 {
     .footer {
-        background-color: #1f1c26;
+        background-color: #1A1924;
         padding: 0rem;
         min-height: 105px;
         font-weight: bold;

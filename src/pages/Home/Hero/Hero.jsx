@@ -1,33 +1,47 @@
 import React from 'react';
 import styles from "./hero.module.css";
 import MagicScrollButton from '../../../components/MagicScrollButton/MagicScrollButton';
-import herobg from "../../../assets/images/home/herobg.png";
-import diamond from "../../../assets/images/home/hero/diamond.png";
-import bell from "../../../assets/images/home/hero/bell.png";
+import herobg from "../../../assets/images/bgbaner.png";
+import diamond from "../../../assets/images/bannercircle.png";
+import burnere from "../../../assets/images/burner.png";
 import seven from "../../../assets/images/home/hero/seven.png";
 import dice from "../../../assets/images/home/hero/dice.png";
 
+
+
 const Hero = () => {
-    const bgStyle = {
-        backgroundImage: `url(${herobg})`,
-        backgroundSize: 'contain',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'bottom',
-    }
+   
 
     return (
-        <div className={` inner-container d-flex justify-content-center flex-column position-relative ${styles.herobg}`}>
-            <img data-aos="fade-up" data-aos-offset="-200" className={`img-fluid ${styles.building}`} src={herobg} alt="" />
-            <img className={`img-fluid ${styles.diamond} ${styles.floatingIcon}`} src={diamond} alt="" />
-            <img className={`img-fluid ${styles.bell} ${styles.floatingIcon}`} src={bell} alt="" />
-            <img className={`img-fluid ${styles.seven} ${styles.floatingIcon}`} src={seven} alt="" />
-            <img className={`img-fluid ${styles.dice} ${styles.floatingIcon}`} src={dice} alt="" />
-            <h1 data-aos="fade-down" className={`text-center  fw-bold ${styles.title} `}>Welcome to <span className="text-primary">sebm500.com</span></h1>
-            <p data-aos="fade-down" className='text-center'>Exclusive Rewards, Bonuses & Monthly Leaderboard Competitions</p>
-            <a href='#Bonuses' className="d-flex justify-content-center mt-5">
-                <MagicScrollButton />
-            </a>
+
+        <>
+
+        <div>
+
+            <img   className={`heroobanner w-100 h-100`} src={herobg} alt=""  style={{'position':'absolute'}}/>
+            
+<div style={{'position':'relative','top':'100px'}}>
+    
+<h1 data-aos="fade-down" className={`text-center   ${styles.title} `}> <span className="text-primary">Welcome to  <span className='fw-bold'> RambleRewards</span>
+</span></h1>
+        <p data-aos="fade-down" className={`text-center shortbannertext ${styles.shortbannertext} `}> <p>Find all the infos about</p> <span>H<img className={`img-fluid ${styles.burnerimg}`} src={burnere} alt="" /> WL</span></p>
+        <a href='#Bonuses' className="d-flex justify-content-center mt-5">
+            <MagicScrollButton />
+        </a>
+
+</div>
         </div>
+
+            <div className={` inner-container`}>
+        
+        <img className={`img-fluid ${styles.diamond} ${styles.floatingIcon}`} src={diamond} alt="" />
+        <img className={`img-fluid ${styles.bell} ${styles.floatingIcon}`} src={diamond} alt="" />
+        <img className={`img-fluid ${styles.seven} ${styles.floatingIcon}`} src={diamond} alt="" />
+        <img className={`img-fluid ${styles.dice} ${styles.floatingIcon}`} src={diamond} alt="" />
+        
+    </div>
+        </>
+      
     );
 }
 

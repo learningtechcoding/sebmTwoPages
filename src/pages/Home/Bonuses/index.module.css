@@ -1,9 +1,26 @@
 .title {
     font-size: 50px;
-    color: #f8526e;
+    color: #EA2E32;
 }
 .cardImgTop {
     margin: auto;
     width: auto;
     max-height: 150px;
+}
+
+.levelstyle span{
+  color: #EA2E32;
+}
+
+.dashpara{
+    margin-bottom: 1px;
+}
+.dashpara span{
+    font-weight: 700;
+}
+.dashpara2{
+    margin-bottom: 1px;
+}
+.dashpara2 span{
+    color: #EA2E32;
 }

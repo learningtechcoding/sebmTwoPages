@@ -26,5 +26,21 @@
 
 .nav-link.active {
     border-bottom: 3px solid #f8526e;
-    color: #f8526e !important
+color: #fff !important;
 }
+
+.navbarbackground{
+    padding: 10px;
+    padding-block: 15px;
+    background-color: #191924;
+}
+
+
+/*############> New Style Start <############# */
+.logoheadertext{
+    
+    font-weight: 700;
+    color: #ea2e32;
+
+}
+/*############> New Style End <############# */

@@ -10,17 +10,17 @@ const Navbar = () => {
         setUrl(location.pathname);
     }, [location]);
     return (
-        <footer className="footer">
+        <footer className="footer  mt-5">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-3">
-                        <Link className="navbar-brand" to="/"><img src={logo} className="logo" /></Link>
+                       <h2 style={{'color':'#ea2e32','font-weight':'700'}}>RambleRewards</h2>
                         <p>Copyright @ 2024 sebm500.com</p>
                     </div>
                     <div className="col-md">
-                        <p>Disclaimer</p>
-                        <p>We do not take any responsibility for any losses from gambling in casinos and betting sites which are linked or promoted on our website(s). As a player, you are responsible for your bets.</p>
-                    </div>
+                        <p>RambleRewards is not responsible for misunderstood or incorrect bonuses or promotions. We highly recommend reading and understanding</p>
+ <p>the conditions of the bonus before using it. If you need any help understanding a bonus or welcome offer, please contact us on Discord.</p>
+                     </div>
                 </div>
             </div>
         </footer>

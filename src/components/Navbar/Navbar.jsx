@@ -10,9 +10,11 @@ const Navbar = () => {
         setUrl(location.pathname);
     }, [location]);
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg navbarbackground">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/"><img src={logo} className="logo ms-4" /></Link>
+
+                <h2 className='logoheadertext' >RambleRewards</h2>
+                {/* <Link className="navbar-brand" to="/"><img src={logo} className="logo ms-4" /></Link> */}
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     {/* <span className="navbar-toggler-icon"></span> */}
                     <i class="fas fa-bars text-white"></i>
@@ -25,15 +27,7 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link className={`nav-link ${(url === "/how-to-register" ? " active" : "")}`} to="/how-to-register">How to Register?</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className={`nav-link ${(url === "/leaderboard" ? " active" : "")}`} to="/leaderboard">Leaderboard</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className={`nav-link ${(url === "/videos" ? " active" : "")}`} to="/videos">Videos</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className={`nav-link ${(url === "/rewards" ? " active" : "")}`} to="/rewards">Rewards</Link>
-                        </li>
+                         
                     </ul>
                 </div>
 

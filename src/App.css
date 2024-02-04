@@ -1,6 +1,6 @@
 .main,
 .inner-container {
-  min-height: calc(100vh - 60px);
+  min-height: calc(70vh - 60px);
 }
 
 .inner-container {
@@ -10,6 +10,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  /* background-color: #17151E; */
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 .text-primary {
-  color: #f8526e !important;
+  color: #ea2e32 !important;
 }
 
 .text-outline-primary {
@@ -159,7 +160,7 @@ body {
   transform: skewY(5deg);
   margin: 4rem 0;
   padding: 10rem 0;
-  background-color: #00000066;
+  /* background-color: #00000066; */
 }
 
 .skewed-container>div {

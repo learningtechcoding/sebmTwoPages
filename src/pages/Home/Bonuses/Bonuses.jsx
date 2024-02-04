@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 
 import styles from './index.module.css';
 import card_1_img from '../../../assets/images/home/card-1.png';
-import card_2_img from '../../../assets/images/home/card-2.png';
+import card_2_img from '../../../assets/images/bonusimg.png';
 import card_3_img from '../../../assets/images/home/card-3.png';
 
 const Bonuses = () => {
@@ -16,75 +16,36 @@ const Bonuses = () => {
 
     return (
         <div className='inner-container d-flex flex-column gap-5'>
-            <h1 id='Bonuses' className={`${styles.title} text-center py-4`}>Bonuses</h1>
+            <h1 id='Bonuses' className={`${styles.title} text-center py-4`}>All Bonuses</h1>
             <div className="container">
-                <div className="row justify-content-center">
-                    <div className="col-md-6 col-lg-4  my-2">
-                        <div data-aos="fade-up" data-aos-delay="10" data-aos-offset="200" className={`card h-100`}>
-                            <img src={card_1_img} className={`${styles.cardImgTop} card-img-top`} alt="..." />
-                            <div className="card-body">
-                                <h5 className="fw-bold text-center">100% Deposit Bonus Up To $1,000</h5>
-                                <div className="card-text">Bonus Conditions:
-                                    <ul>
-                                        <li>
-                                            Use code <span className="text-primary fw-bold">"SEBM"</span> on Sign Up
-                                        </li>
-                                        <li>
-                                            Deposit Between $25-$1,000
-                                        </li>
-                                        <li>
-                                            Wager the Bonus 40x to Withdraw
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <Link to="bonuses" className="btn btn-primary mt-2">Claim Bonus</Link>
-                        </div>
+                <div className="row ">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-6   pe-5 my-2 align-self-center">
+
+                        <h3  className={`${styles.levelstyle}`}>Level <span>Rewards</span></h3>
+
+                        <p className='py-4'>With the new Level Rewards, you can claim multiple exclusive Instant, Daily, Weekly & Monthly Bonuses:</p>
+
+                        <p className={`${styles.dashpara}`}>- Free <span>Daily Case</span></p>
+                        <p className={`${styles.dashpara2}`}>- Exclusive<span>VIP Rewards</span></p>
+                        <p className={`${styles.dashpara}`}>- <span>Instant, Daily, Weekly & Monthly</span> Rakeback</p>
+                        <p className={`${styles.dashpara2}`}>- <span>Increased Vault</span>Limit</p>
+
+                        <p className={`${styles.dashpara}`}>-Special <span>one Time Bonus</span> depending on Rank / Wager</p>
+
+
+                        {/* <div data-aos="fade-up" data-aos-delay="10" data-aos-offset="200" className={`card h-100`}>
+                            
+                         
+                        </div> */}
                     </div>
-                    <div className="col-md-6 col-lg-4  my-2">
-                        <div data-aos="fade-up" data-aos-offset="300" data-aos-delay="40" className={`card h-100`}>
-                            <img src={card_2_img} className={`${styles.cardImgTop} card-img-top`} alt="..." />
-                            <div className="card-body">
-                                <h5 className="fw-bold text-center">50 Free Spins</h5>
-                                <div className="card-text">Bonus Conditions:
-                                    <ul>
-                                        <li>
-                                            Use code <span className="text-primary fw-bold">"SEBM"</span> on Sign Up
-                                        </li>
-                                        <li>
-                                            Deposit Between $25-$1,000
-                                        </li>
-                                        <li>
-                                            Wager the Bonus 40x to Withdraw
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <Link to="bonuses" className="btn btn-primary mt-2">Claim Bonus</Link>
-                        </div>
+                    <div className="col-md-4    my-2">
+                    <img src={card_2_img} className={`   w-100 h-100`} alt="..." />
                     </div>
-                    <div className="col-md-6 col-lg-4  my-2">
-                        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" className={`card h-100`}>
-                            <img src={card_3_img} className={`${styles.cardImgTop} card-img-top`} alt="..." />
-                            <div className="card-body">
-                                <h5 className="fw-bold text-center">$10,000 Monthly Leaderboard</h5>
-                                <div className="card-text">Bonus Conditions:
-                                    <ul>
-                                        <li>
-                                            Use code <span className="text-primary fw-bold">"SEBM"</span> on Sign Up
-                                        </li>
-                                        <li>
-                                            Wager on 500.casino
-                                        </li>
-                                        <li>
-                                            1M XP ~ $600 Wager
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="#" className="btn btn-primary mt-2">Leaderboard</a>
-                        </div>
-                    </div>
+
+                    <div className="col-md-1"></div>
+
+                 
                 </div>
             </div>
         </div>

@@ -68,3 +68,31 @@
     }
  
 }
+/* New Css start  */
+.shortbannertext{
+    display: flex;
+    justify-content: center;
+}
+.shortbannertext span{
+    font-size: 60px;
+    font-weight: 700;
+    z-index: 10000 !important;
+    
+}
+.shortbannertext p{
+    padding-top: 40px;
+    padding-right: 10px;
+}
+.burnerimg{
+    margin-top: -30px;
+}
+/* New Css End  */
+
+
+@media(max-width:454px)
+{
+    .shortbannertext{
+        display: block !important;
+       
+    }
+}

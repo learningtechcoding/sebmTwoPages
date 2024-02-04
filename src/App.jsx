@@ -20,11 +20,8 @@ function App() {
       <div className="main">
         <Routes>
           <Route path="/" Component={Home} />
-          <Route path="/bonuses" Component={Bonuses} />
-          <Route path="/leaderboard" Component={Leaderboard} />
-          <Route path="/how-to-register" Component={HowToRegister} />
-          <Route path="/rewards" Component={Rewards} />
-          <Route path="/videos" Component={Videos} />
+          <Route path="/" Component={Home} />
+         
         </Routes>
       </div>
       <Footer />
