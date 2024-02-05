@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className="row">
                     <div className="col-md-3">
                        <h2 style={{'color':'#ea2e32','font-weight':'700'}}>RambleRewards</h2>
-                        <p>Copyright @ 2024 sebm500.com</p>
+                        <p> © 2024 Ramblebonus.com All Rights Reserved </p>
                     </div>
                     <div className="col-md">
                         <p>RambleRewards is not responsible for misunderstood or incorrect bonuses or promotions. We highly recommend reading and understanding</p>

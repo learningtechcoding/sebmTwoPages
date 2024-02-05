@@ -1,0 +1,115 @@
+
+.title {
+    font-size: 50px;
+    color: #EA2E32;
+}
+.cardImgTop {
+    margin: auto;
+    width: auto;
+    max-height: 150px;
+}
+
+.levelstyle span{
+  color: #EA2E32;
+  font-size: 45px;
+}
+.vistpara span{
+  color: #EA2E32;
+ 
+}
+
+.dashpara{
+    margin-bottom: 1px;
+}
+.dashpara span{
+    font-weight: 700;
+}
+.dashpara2{
+    margin-bottom: 1px;
+}
+.dashpara2 span{
+    color: #EA2E32;
+}
+
+.bonusmain{
+    border: 1px solid #EA2E32;
+}
+
+.levelstyleicons{
+    position: relative;
+    padding: 6px;
+    width: 20px;
+    top: 5px;
+    height: 20px;
+    background-color: #191926;
+}
+.levelstyleicons i{
+    color: #56566e;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.levelstylep{
+    color: #56566e;
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.rowstyle
+{
+    background-color: #15121c;
+    padding: 4px;
+}
+
+/* code pen  */
+
+  /* toggle in label designing */
+  .toggle {
+    position : relative ;
+    display : inline-block;
+    width : 80px;
+    height : 31px;
+    background-color: #EA2E32 ;
+    border-radius: 30px;
+    border: 2px solid gray;
+}
+       
+/* After slide changes */
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 1px; 
+    left: 1px;
+    transition:  all 0.5s;
+}
+       
+/* Toggle text */
+.onoff {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 3px;
+    padding-right: 8px;
+}
+       
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+    left : 49px; 
+}
+       
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+    background-color: #56566e ;
+}
+       
+/* Checkbox vanished */
+.checkbox { 
+    display : none;
+}
+  

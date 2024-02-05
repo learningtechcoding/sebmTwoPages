@@ -6,15 +6,30 @@ import MonthlyLeaderboard from './MonthlyLeaderboard/MonthlyLeaderboard';
 import  Unlimitedbounus from './Unlimitedbounus/Unlimitedbonus';
 import  Dailycase from './DailyCase/Dailycase';
 
+ 
+
 const Home = () => {
     return (
         <div>
             <Hero />
-            <Bonuses />
-            <LevelUpReward />   
-            <MonthlyLeaderboard />   
+           
+
+           <div className='levelstylefirstmain' >
+           <Bonuses />
+           </div>
+            <div className='levelstyle'>
+            <LevelUpReward />  
+                </div> 
+
+                <div className='levelstyle'> 
+        <MonthlyLeaderboard />  
+            </div>
+            <div className='levelstyle'> 
            <Unlimitedbounus />
+           </div>
+           <div className='levelstyle'> 
            <Dailycase />
+           </div>
         </div>
     );
 }

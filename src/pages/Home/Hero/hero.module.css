@@ -1,5 +1,11 @@
+@import url('https://fonts.cdnfonts.com/css/dubai');
+body{
+    font-family: 'Dubai', sans-serif;
+}
 .title {
     font-size: 50px;
+    z-index: 10000;
+   
 }
 
 .herobg {
@@ -72,6 +78,7 @@
 .shortbannertext{
     display: flex;
     justify-content: center;
+    
 }
 .shortbannertext span{
     font-size: 60px;
@@ -84,7 +91,9 @@
     padding-right: 10px;
 }
 .burnerimg{
+
     margin-top: -30px;
+    width: 50px;
 }
 /* New Css End  */
 
@@ -95,4 +104,29 @@
         display: block !important;
        
     }
+}
+
+
+.globeimage{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    
+}
+
+@media(max-width:786px)
+{
+    
+.globeimage{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    
+}
 }

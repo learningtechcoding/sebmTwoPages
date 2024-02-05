@@ -1,9 +1,32 @@
-.container{
-    min-height: 400px;
-    border-top: 1px solid #f8526e;
-    border-bottom: 1px solid #f8526e;
-    transform: skewY(5deg);
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    background-color: #17151E;
+
+.title {
+    font-size: 50px;
+    color: #EA2E32;
+}
+.cardImgTop {
+    margin: auto;
+    width: auto;
+    max-height: 150px;
+}
+
+.levelstyle span{
+  color: #EA2E32;
+  font-size: 45px;
+}
+.vistpara span{
+  color: #EA2E32;
+ 
+}
+
+.dashpara{
+    margin-bottom: 1px;
+}
+.dashpara span{
+    font-weight: 700;
+}
+.dashpara2{
+    margin-bottom: 1px;
+}
+.dashpara2 span{
+    color: #EA2E32;
 }

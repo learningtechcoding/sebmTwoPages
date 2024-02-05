@@ -20,7 +20,7 @@ function App() {
       <div className="main">
         <Routes>
           <Route path="/" Component={Home} />
-          <Route path="/" Component={Home} />
+          <Route path="/how-to-register" Component={HowToRegister} />
          
         </Routes>
       </div>

@@ -1,5 +1,5 @@
 .mouse {
-    border: 3px solid #f8526e;
+    border: 3px solid #ea2e32;
     width: 35px;
     height: 60px;
     border-radius: 20px;
@@ -11,7 +11,7 @@
     left: 50%;
     top: 10%;
     transform: translate(-50%);
-    background-color: #f8526e;
+    background-color: #ea2e32;
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -115,7 +115,7 @@
 
 .bottomArrow::after ,
 .bottomArrow::before {
-    border: 2px solid #f8526e;
+    border: 2px solid #ea2e32;
     content: '';
     position: absolute;
     width: 25px;

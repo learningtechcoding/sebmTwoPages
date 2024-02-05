@@ -11,7 +11,7 @@ const  MonthlyLeaderboard = () => {
         <div className="container ">
         <div className="row pt-5">
             <div className="col-md-1"></div>
-            <div className="col-md-6    my-2 align-self-center">
+            <div className="col-md-6    my-2 align-self-center"  data-aos="fade-down" data-aos-delay="30" data-aos-offset="200">
 
                 <h3  className={`${styles.levelstyle}`}>Daily, Weekly & Monthly
 Rakeback <span>Rakeback</span></h3>
@@ -30,7 +30,7 @@ Rakeback <span>Rakeback</span></h3>
                  
                 </div> */}
             </div>
-            <div className="col-md-4    my-2">
+            <div className="col-md-4    my-2"  data-aos="fade-up" data-aos-delay="10" data-aos-offset="200">
             <img src={card_2_img} className={`   w-100 h-100`} alt="..." />
             </div>
 

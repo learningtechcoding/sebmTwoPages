@@ -7,10 +7,22 @@ import SectionFour from './SectionFour/SectionFour';
 const HowToRegister = () => {
     return (
         <div>
+            <div className='levelstylefirstregis' > 
             <SectionOne />
+            </div>
+
+         <div className='levelstylefirst' >
             <SectionTwo />
-            <SectionThree />
-            <SectionFour />
+            </div>
+              
+         <div className='levelstylefirst' >
+         <SectionFour />
+            </div>
+              
+               <div className='levelstylefirst' >
+               <SectionThree />
+               </div>
+         
         </div>
     );
 }

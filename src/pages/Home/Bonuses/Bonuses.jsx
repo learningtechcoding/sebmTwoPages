@@ -15,12 +15,12 @@ const Bonuses = () => {
     }, [pathname]);
 
     return (
-        <div className='inner-container d-flex flex-column gap-5'>
+        <div className='inner-container d-flex flex-column gap-5  '>
             <h1 id='Bonuses' className={`${styles.title} text-center py-4`}>All Bonuses</h1>
             <div className="container">
                 <div className="row ">
                     <div className="col-md-1"></div>
-                    <div className="col-md-6   pe-5 my-2 align-self-center">
+                    <div className="col-md-6     pe-5 my-2 align-self-center"  data-aos="fade-up" data-aos-delay="10" data-aos-offset="200">
 
                         <h3  className={`${styles.levelstyle}`}>Level <span>Rewards</span></h3>
 
@@ -39,7 +39,7 @@ const Bonuses = () => {
                          
                         </div> */}
                     </div>
-                    <div className="col-md-4    my-2">
+                    <div className="col-md-4    my-2"  data-aos="fade-down" data-aos-delay="10" data-aos-offset="200">
                     <img src={card_2_img} className={`   w-100 h-100`} alt="..." />
                     </div>
 

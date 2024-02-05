@@ -1,20 +1,36 @@
 import React from 'react';
 import styles from './index.module.css'
-import img from '../../../assets/images/how-to-register/section-3.png'
+import  card_2_img from '../../../assets/images/how-to-register/Rectangle (7).png'
 
 const SectionThree = () => {
     return (
-        <div className="">
-            <div data-aos="fade-up" data-aos-offset="100" className="container my-md-5 py-md-5">
-                <div className="row gap-md-4 my-md-5 py-5">
-                    <div className="col-md text-center">
-                        <h1><span className="title text-primary">Rewards</span> TAB</h1>
-                        <img src={img} className='mw-100 mb-3' alt="" />
-                        <p>Click on the <span className="text-primary">Rewards Icon</span> next to your profile to get ti the reward section.</p>
-                    </div>
+        <div className='inner-container d-flex flex-column gap-5  '>
+        
+        <div className="container">
+            <div className="row ">
+                <div className="col-md-1"></div>
+                <div className="col-md-6     pe-5 my-2 align-self-center" data-aos="fade-up" data-aos-delay="10" data-aos-offset="200">
+
+                    <h2 className={`${styles.levelstyle}`}> Enter <span>
+                    Code: Ramble777</span></h2>
+
+                    <p className={`py-4 ${styles.vistpara}`}> You made it! Your last step is to enter Code
+                        <span>"Ramble777"</span> . <br />
+                        and you are good to go. Enjoy playing on Howl.gg</p>
+
+                 
+
                 </div>
+                <div className="col-md-4    my-2" data-aos="fade-down" data-aos-delay="10" data-aos-offset="200">
+                    <img src={card_2_img} className={`   w-100 h-100`} alt="..." />
+                </div>
+
+                <div className="col-md-1"></div>
+
+
             </div>
         </div>
+    </div>
     );
 }
 
